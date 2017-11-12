@@ -6,6 +6,3 @@ function displayCurrentDayAndTime(){
 
         document.getElementById("displayCurrentTime").innerHTML = `Current Time is : ${today.getHours() >= 12 ? (today.getHours()-12):(today.getHours())} ${today.getHours() >=12 ? "PM":"AM"} : ${today.getMinutes()} : ${today.getSeconds()}`;
 }
-function displayCurrentWindow(){
-    window.print();
-}
